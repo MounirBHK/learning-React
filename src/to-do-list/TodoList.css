@@ -1,0 +1,18 @@
+.todoList-item {
+  border-bottom: 1px gray solid;
+  margin-bottom: 5px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center; /* Center items vertically */
+  padding: 8px; /* Add padding for better visual appeal */
+}
+
+.todoList-item button {
+  padding: 5px 10px;
+  cursor: pointer;
+  margin-left: 5px;
+}
+
+.todoList-item button:hover {
+  background-color: #c4c7c9;
+}
