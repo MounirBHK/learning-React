@@ -21,7 +21,7 @@ export default function ExcuseGenerator() {
             <h1>Generate An Excuse</h1>
             <button onClick={() => fetchData('party')}>Party</button>
             <button onClick={() => fetchData('family')}>Family</button>
-            <button onClick={() => fetchData('ofiice')}>Office</button>
+            <button onClick={() => fetchData('office')}>Office</button>
             {excuse &&
                 <p>{excuse}</p>
             }
