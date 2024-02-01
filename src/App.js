@@ -32,6 +32,7 @@ import CatFatGen from './pages/cat-fact/CatFactGen'
 import PredictAge from './pages/predict-age/PredictAge'
 import ExcuseGenerator from './pages/excuse-gen/ExcuseGenerator';
 import TodoList from './pages/to-do-list/TodoList';
+import Counter from './pages/counter-with-hook/Counter';
 
 export const AppContext = createContext()
 
@@ -63,6 +64,7 @@ function App() {
               <Route path='/predict-age' element={<PredictAge />} />
               <Route path='/todo-list' element={<TodoList />} />
               <Route path='/excuse-gen' element={<ExcuseGenerator />} />
+              <Route path='/counter' element={<Counter />} />
 
               <Route path='*' element={<ErrorPage />} />
             </Routes>

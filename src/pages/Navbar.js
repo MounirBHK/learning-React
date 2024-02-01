@@ -12,6 +12,7 @@ export default function Navbar() {
             <Link to='/predict-age'> PredictAge </Link>
             <Link to='/todo-list'> TodoList </Link>
             <Link to='/excuse-gen'> ExcuseGen </Link>
+            <Link to='/counter'> Counter </Link>
         </div>
 
     )
